@@ -1,0 +1,56 @@
+body{
+    background: lightgray;
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+header {
+    background: white;
+    margin:auto;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.post{
+    background: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+}
+
+.post img{
+    width: 100%;
+}
+
+.post-header {
+    display: flex;
+}
+
+span {
+    margin-left: auto;
+    color: gray;
+    margin-top: 14px;
+    flex-shrink: 0; 
+}
+
+h2 {
+    margin: 1%;
+    white-space: nowrap; 
+    flex-grow: 1; 
+}
+
+#last{
+    margin: 40px;
+}
